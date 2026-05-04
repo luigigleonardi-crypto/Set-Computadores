@@ -79,9 +79,14 @@ export const Oferta: React.FC = () => {
           </div>
         </div>
 
-        <button className="bg-brand-red hover:bg-red-700 text-white text-xl font-bold py-5 px-10 rounded-full transition-all shadow-lg hover:shadow-[0_0_20px_rgba(227,0,15,0.4)] flex items-center justify-center gap-3 w-full max-w-xl mx-auto group">
+        <a 
+          href="https://wa.me/5531993611858?text=Ol%C3%A1%2C%20vi%20a%20apresenta%C3%A7%C3%A3o%20e%20quero%20aprovar%20a%20nossa%20parceria%21" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="bg-brand-red hover:bg-red-700 text-white text-xl font-bold py-5 px-10 rounded-full transition-all shadow-lg hover:shadow-[0_0_20px_rgba(227,0,15,0.4)] flex items-center justify-center gap-3 w-full max-w-xl mx-auto group"
+        >
           Começar a trabalhar juntos <ArrowRight className="group-hover:translate-x-2 transition-transform" />
-        </button>
+        </a>
         <p className="mt-4 text-sm text-gray-400 font-medium">Basta clicar para me mandar um WhatsApp dizendo que aprovou</p>
 
       </div>
